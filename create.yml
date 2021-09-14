@@ -1,0 +1,11 @@
+---
+- name: CREATING A FOLDER
+  hosts: all
+  tasks:
+        - name: USERNAME
+          command: echo whoami >> /home/ansible/kush.txt
+        - name: Using a file command
+          file:
+                 path: /home/ansible/jenkins_folder.txt
+                 state: touch
+

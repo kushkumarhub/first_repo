@@ -1,0 +1,7 @@
+- name: My First playbook
+  hosts: all
+  tasks:
+        - name: file module hai
+          file:
+               path: /home/ansible/testfolder/hello.tx
+               state: touch
