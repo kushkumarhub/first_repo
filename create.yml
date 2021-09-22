@@ -4,7 +4,7 @@
   tasks:
         - name: USERNAME PRINT
           command: echo whoami >> /home/ansible/kush.txt
-        - name: Using a file command
+        - name: Using a file command module
           file:
                  path: /home/ansible/jenkins_folder.txt
                  state: touch
