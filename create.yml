@@ -1,5 +1,5 @@
 ---
-- name: CREATING A FOLDER
+- name: CREATING A FOLDERS
   hosts: all
   tasks:
         - name: USERNAME PRINT
